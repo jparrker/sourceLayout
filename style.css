@@ -1,0 +1,171 @@
+body{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--bg-grey);
+  background-color: #f5f9fc;
+}
+:root{
+  --main-grey: #394f61;
+  --bg-grey: #f5f9fc;
+  --accent-text: #889eaf;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+.main, nav {
+  background-color: #f5f9fc
+}
+.btn-primary{
+  background: var(--main-grey);
+  border: 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-right: 1.5rem
+}
+
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-middle{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.nav-middle li a{
+  padding-right: 1rem;
+  color: var(--main-grey);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.nav-list h3{
+  font-size: 1.6rem;
+  color: var(--main-grey);
+  margin-top: 0;
+}
+.hero-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-right img{
+  display: block;
+  margin-left: auto;
+  width: 80%;
+}
+
+.hero-left{
+  margin: 3% auto;
+  width: 60%;
+  padding-left: 10%;
+}
+
+.hero-left span{
+  color:  #889eaf;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  
+}
+
+.hero-left h1{
+  font-size: 3.4rem;
+  color: var(--main-grey);
+}
+
+.hero-left p{
+  color: var(--accent-text);
+  font-size: 1.6rem;
+}
+
+
+
+
+input[type=text] {
+  width: 30%;
+  border: 2px solid #e1e9f0;
+  font-size: 12px;
+  color: #889eaf;
+  background-color: #e1e9f0;
+  flex-basis: 30%;
+  display: inline-block
+}
+
+form{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.features-container{
+  display: flex;
+  
+  color: var(--accent-text);
+  width: 76%;
+  margin: 1% auto;
+  justify-content: space-between;
+  
+  
+}
+
+.features-item img{
+  width: 1.5rem;
+}
+
+.features-item {
+  align-items: center;
+}
+
+.features-container h4, .features-container p{
+  font-size: 1rem;
+  color: var(--main-grey);
+  font-weight: bold;
+}
+
+.features-container p{
+  font-weight: normal;
+  width: 65%;
+  color: #667889;
+  
+}
+
+.features-container a {
+  text-decoration: none;
+  color: #667889;
+  font-size: 0.9rem;
+  font-weight: bold;
+  
+}
+
+.problem {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+}
+
+.problem-wrapper {
+  width: 77%;
+  margin: 2% auto;
+  
+}
+.problem-wrapper h1{
+  color: #394f61;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.problem-wrapper p{
+  color: var(--main-grey);
+  display: inline-block;
+  font-size: 1rem;
+}
